@@ -28,4 +28,12 @@ contract Nft is ERC721URIStorage {
         _setTokenURI(tokenId, _tokenURI);
         emit NftMinted(msg.sender, tokenId);
     }
+
+    function getMintFee() public view returns (uint256) {
+        return mintFee;
+    }
+
+    function getTokenCounter() public view returns (uint256) {
+        return _tokenIds.current();
+    }
 }
