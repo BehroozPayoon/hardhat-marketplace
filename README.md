@@ -1,9 +1,6 @@
 # Hardhat NFT Marketplace 
 
-<br/>
-
-Nft Marketplace contract to list items minted by Nft.sol contract
-
+Use NftMarketplace.sol to store and list items minted by Nft.sol
 
 # Getting Started
 
